@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set()
 
@@ -26,10 +25,6 @@ st.bar_chart(data=top_stores, x='store_id', y='store_sales')
 
 st.header("Top 10 Least Performing Stores In Sales")
 st.bar_chart(data=bottom_stores, x='store_id', y='store_sales')
-
-
-
-
 
 
 total_daily_customer_count = super_df['daily_customer_count'].sum()
