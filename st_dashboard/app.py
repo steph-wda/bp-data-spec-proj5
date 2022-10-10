@@ -36,3 +36,4 @@ col1,col2,col3 = st.columns(3)
 col1.metric(label="Total Daily Customer Count", value=total_daily_customer_count)
 col2.metric(label="Average Daily Customer Count", value=avg_daily_customer_count)
 col3.metric(label="Average Customer Spend", value=avg_spent_per_customer)
+
